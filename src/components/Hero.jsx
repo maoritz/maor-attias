@@ -4,11 +4,11 @@ import { faLinkedin, faGithub, faCodepen } from '@fortawesome/free-brands-svg-ic
 
 function Hero() {
   return (
-    <div className='flex'>
-      <img className='h-40 rounded-full' src="../maor_hero.jpeg" alt="" srcset="" />
+    <div className='flex items-center'>
+      <img className='h-32 rounded-full' src="../maor_hero.jpeg" alt="" srcset="" />
       <div className='ml-5'>
-        <h1 className="text-3xl font-bold mb-2">Maor Attias</h1>
-        <p className="text-lg mb-2">Frontend Developer</p>
+        <h1 className="text-2xl font-bold mb-1">Maor Attias</h1>
+        <p className="text-base mb-1">Frontend Developer</p>
         <p className="text-gray-400 mb-2">
           I build pixel-perfect, engaging, and accessible digital experiences.
         </p>
