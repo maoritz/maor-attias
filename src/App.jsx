@@ -11,7 +11,7 @@ function App() {
   return (
     <> 
       {width > 550 ? <Desktop/> :
-        <div className="font-light bg-gray-900 text-white flex flex-col gap-24 justify-center font-poppins p-2">
+        <div className="font-light bg-gray-900 text-white flex flex-col gap-20 justify-center font-poppins p-2">
           <Hero />
           <About />
           <Projects />
