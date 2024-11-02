@@ -5,7 +5,7 @@ import { faLinkedin, faGithub, faCodepen } from '@fortawesome/free-brands-svg-ic
 function Hero() {
   return (
     <div className='flex'>
-      <img className='h-32 rounded-full mt-1.5' src="../maor_hero.jpeg" alt="" srcset="" />
+      <img className='h-32 rounded-full mt-1.5' src="../hero-img-zoom.jpeg" alt="" srcset="" />
       <div className='ml-5'>
         <h1 className="text-2xl font-bold mb-1 flex align-text-top">Maor Attias</h1>
         <p className="text-base mb-1">Frontend Developer</p>
