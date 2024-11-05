@@ -1,5 +1,4 @@
 import Typewriter from 'typewriter-effect';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faCodepen } from '@fortawesome/free-brands-svg-icons';
 import FontIcon from './FontIcon';
 

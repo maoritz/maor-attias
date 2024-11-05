@@ -1,23 +1,18 @@
-import useWidth from './hooks/useWidth';
-import Desktop from './components/Desktop';
 import Hero from './components/Hero'
 import About from './components/About'
 import Projects from './components/Projects'
-
-
+import Footer from './components/Footer';
 
 function App() {
-  const{width} = useWidth()
   return (
-    <> 
-      {width > 550 ? <Desktop/> :
-        <div className="font-light bg-gray-900 text-white flex flex-col gap-16 justify-center font-poppins p-3.5 pt-14 pb-14">
-          <Hero />
-          <About />
-          <Projects />
-        </div>
-      }
-    </>
+    <div className=' bg-gray-900'> 
+      <div className="font-light text-white flex flex-col gap-16 justify-center font-poppins p-3.5 pt-14 pb-14 max-w-xl">
+        <Hero />
+        <About />
+        <Projects />
+      </div>
+      <Footer />
+    </div>
   );
 }
 
