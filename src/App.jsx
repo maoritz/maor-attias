@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className=' bg-gray-900'> 
-      <div className="font-light text-gray-300 flex flex-col gap-16 font-poppins p-3.5 pt-14 pb-14 mx-auto max-w-screen-lg">
+      <div className="font-light text-gray-300 flex flex-col gap-16 font-poppins p-3.5 pt-14 pb-14 mx-auto max-w-screen-md">
         <Hero />
         <About />
         <Projects />
