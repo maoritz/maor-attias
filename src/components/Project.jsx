@@ -2,11 +2,13 @@ import LabelButton from "./LabelButton"
 
 function Project({link, name, img, info}) {
   return (
-    <div className="text-sm  mb-10 sm:flex flex-row-reverse">
+    <div className="text-sm mb-10 sm:flex flex-row-reverse">
       <div>
-        <a className='no-underline visited:text-white mb-[-70px] mt-[-60px] mb-2' target="_blank" href={link}>
-          <div className='mb-2 text-teal-300 hover:text-teal-200 duration-300 '>{name} ⬈</div>
-        </a>
+        <div className='mb-2'>
+          <a className='hover:text-teal-300 transition duration-300 no-underline text-base' target="_blank" href={link}>
+            {name} ⬈
+          </a>
+        </div>
         <p className="mb-4">
           {info}
         </p>
